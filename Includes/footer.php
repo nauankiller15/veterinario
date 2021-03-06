@@ -50,7 +50,7 @@
     </ul>
 </footer>
 <div class="creditos">
-    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - CSS3 <i style="margin-left:5px; color:#b82d2d;" class="fas fa-heart"></i></p>
+    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - Veterinario</p>
 </div>
 <!-- Copyright -->
 
