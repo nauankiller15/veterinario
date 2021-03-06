@@ -10,5 +10,6 @@
     <link rel="stylesheet" type="text/css" href="CSS\apresentacao.css">
     <link rel="stylesheet" type="text/css" href="CSS\localidades.css">
     <link rel="stylesheet" type="text/css" href="CSS\testemunhas.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Veterinário</title>
 </head>

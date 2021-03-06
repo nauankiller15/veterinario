@@ -7,7 +7,7 @@ $(window).on("load", function() {
 $(window).on("load", function() {
     function fade() {
         var animation_height = $(window).innerHeight() * 0.25;
-        var ratio = Math.round((1 / animation_height) * 10000) / 30000;
+        var ratio = Math.round((1 / animation_height) * 10000) / 25000;
 
         $('.fade').each(function() {
 
@@ -18,14 +18,14 @@ $(window).on("load", function() {
                 if (objectTop < windowBottom - animation_height) {
                     $(this).html;
                     $(this).css({
-                        transition: 'opacity 0.1s linear',
+                        transition: 'opacity 0.9s linear',
                         opacity: 1
                     });
 
                 } else {
                     $(this).html;
                     $(this).css({
-                        transition: 'opacity 0.25s linear',
+                        transition: 'opacity 0.s ease-in-out',
                         opacity: (windowBottom - objectTop) * ratio
                     });
                 }

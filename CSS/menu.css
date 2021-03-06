@@ -83,22 +83,52 @@ nav .menuItems {
     top: 30px;
 }
 
-.consulta {
-    font-size: 14px;
-    margin: 20px;
-    background-color: #f05005;
-    color: #fff;
-    padding: 14px;
-    border-radius: 6px;
-    text-transform: uppercase;
-    transition: 0.4s;
-    text-decoration: none;
+.consulta span {
+    position: relative;
+    z-index: 5;
     cursor: pointer;
-    font-weight: 500;
 }
 
-.consulta:hover {
-    background-color: #92421d;
+.consulta {
+    margin: 18px;
+    color: #fff;
+    background: #f05005;
+    padding: 17px 18px;
+    border: #f05005;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.consulta:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #af6745;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: transform 0.4s ease;
+    z-index: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.consulta:hover:before {
+    -webkit-transform: scaleX(200);
+    -ms-transform: scaleX(200);
+    transform: scaleX(200);
+    opacity: 1;
 }
 
 nav .menuItems li {

@@ -1,6 +1,6 @@
 <div class='testemunhas fade'>
     <ul>
-        <div class="titulo-testumanhas fade"><i class="fas fa-comment-dots"></i> Testemunhas:</div>
+        <div class="titulo-testumanhas fade"><i class="fas fa-comment-dots"></i> Depoimentos:</div>
 
 <section id="testim" class="testim fade">
 <!--         <div class="testim-cover"> -->

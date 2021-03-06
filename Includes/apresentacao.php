@@ -5,7 +5,7 @@
             <ul><b>Outra frase de efeito.</b> "Sua cidade" mais uma frase de efeito.</ul>
             <div class="calendario">
                 <span><i style="margin-right: 7px;" class="far fa-calendar-alt"></i> Veja aqui a agenda</span>
-                <li class="consulta-calendario" href='#'>Verificar Consultas</li>
+                <li class="consulta-calendario" href='#'><a>Verificar Consultas</a></li>
             </div>
         </div>
         <div class="cachorro-fundo">

@@ -49,27 +49,60 @@
 }
 
 .calendario span {
-    margin-top: 12px;
+    margin-top: 16px;
     font-size: 20px;
     color: #184985;
     position: absolute;
 }
 
 .consulta-calendario {
-    float: right;
-    font-size: 14px;
-    margin: 0px;
-    background-color: #f05005;
-    color: #fff;
-    padding: 17px;
-    border-radius: 6px;
-    text-transform: uppercase;
-    transition: 0.4s;
+    margin: 2px;
+    color: #FFD;
+    background: #f05005;
+    padding: 17px 18px;
+    border: #f05005;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 500;
+    border-radius: 4px;
+    float: right;
+    transition: 0.5s;
 }
 
-.consulta-calendario:hover {
-    background: #92421d;
+.consulta-calendario a {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.consulta-calendario:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #af6745;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: transform 0.4s ease;
+    z-index: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.consulta-calendario:hover:before {
+    -webkit-transform: scaleX(200);
+    -ms-transform: scaleX(200);
+    transform: scaleX(200);
+    opacity: 1;
 }
