@@ -1,0 +1,136 @@
+.logo {
+    position: absolute;
+    background: url(https://1.bp.blogspot.com/-RUrT5i7cQTI/YEK9t6aPZQI/AAAAAAAAGxk/31sMSs8ffAElofWDNsdAY7XTZvsMBflQQCLcBGAsYHQ/s0/logo%2Bsite-menu.png) no-repeat;
+    padding: 66px 136px 10px 10px;
+    cursor: pointer;
+    margin-top: 38px;
+    margin-left: -7px;
+}
+
+.callmenu {
+    width: 77%;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: 9px;
+    height: 24px;
+    border-bottom: 1px solid #efefef;
+    position: fixed;
+    top: 0;
+    left: 167px;
+    transition: top 0.3s;
+}
+
+.callmenu ul {
+    text-align: center;
+    color: #184985;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.callmenu s {
+    text-decoration: none;
+}
+
+.callmenu p {
+    position: absolute;
+    right: 0;
+}
+
+.callmenu a {
+    text-decoration: none;
+    color: #184985;
+    transition: 0.3s;
+    margin: 2px 1px 4px 9px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.callmenu a:hover {
+    text-decoration: none;
+    color: #f05005
+}
+
+
+/*  */
+
+.menu {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 20%);
+    height: 113px;
+    width: 100%;
+    z-index: 101;
+    transition: top 0.4s;
+}
+
+.position {
+    width: 77%;
+    margin: auto;
+}
+
+nav {
+    position: relative;
+    right: 0;
+}
+
+nav .menuItems {
+    position: absolute;
+    right: -14px;
+    list-style: none;
+    display: flex;
+    top: 30px;
+}
+
+.consulta {
+    font-size: 14px;
+    margin: 20px;
+    background-color: #f05005;
+    color: #fff;
+    padding: 14px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.consulta:hover {
+    background-color: #92421d;
+}
+
+nav .menuItems li {
+    padding: 19px;
+    text-decoration: none;
+    color: #184985;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 4px 11px 0px;
+}
+
+nav .menuItems li::before {
+    content: attr(data-item);
+    transition: 0.2s;
+    color: #f05005;
+    position: absolute;
+    top: 19px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 2px solid #f05005;
+    cursor: pointer;
+}
+
+nav .menuItems li:hover::before {
+    width: 67%;
+    transition: all 0.5s ease-in-out;
+}

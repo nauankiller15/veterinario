@@ -1,0 +1,79 @@
+    .localidades {
+        top: 784px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .localidades ul {
+        font-size: 27px;
+        color: #184985;
+        border-top: 3px solid #184985;
+        width: 76%;
+        padding: 11px;
+        margin: auto;
+        padding-bottom: 1px;
+        background-color: #ffffff;
+    }
+    
+    .localidades span {
+        left: 152px;
+        text-align: right;
+        margin: auto;
+        position: absolute;
+        top: 31px;
+        z-index: 90;
+        padding: 13px;
+        background: #fff;
+        box-shadow: 1px 0px 9px rgb(0 0 0 / 16%);
+    }
+    
+    .localidades s {
+        right: 152px;
+        position: absolute;
+        top: 157px;
+        width: 245px;
+        background: #fff;
+        box-shadow: 1px 0px 9px rgb(0 0 0 / 16%);
+        z-index: 99;
+        text-decoration: none;
+        padding: 30px;
+    }
+    
+    .localidades b {
+        right: 262px;
+        position: absolute;
+        top: 403px;
+        width: 245px;
+        background: #fff;
+        box-shadow: 4px 0px 9px rgb(0 0 0 / 24%);
+        z-index: 100;
+        text-decoration: none;
+        padding: 30px;
+    }
+    
+    .avaliar-atendimento {
+        font-size: 14px;
+        margin: 33px;
+        background-color: #f05005;
+        color: #fff;
+        padding: 17px;
+        border-radius: 6px;
+        text-transform: uppercase;
+        transition: 0.4s;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .avaliar-atendimento:hover {
+        background: #92421d;
+    }
+    
+    .google-maps {
+        z-index: 0;
+        background: url(https://1.bp.blogspot.com/-rGAJjTrIvgw/YELqIrqWvbI/AAAAAAAAGyE/KTBGvYZyF3gi_qRwUfc4l3xjVNeO_Cg0gCLcBGAsYHQ/s0/localizacao-maps.png) no-repeat;
+        padding: 543px 963px 99px 99px;
+        position: absolute;
+        top: 15px;
+    }

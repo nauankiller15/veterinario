@@ -1,0 +1,75 @@
+.apresentacao {
+    top: 86px;
+    width: 100%;
+    padding-bottom: 1px;
+    position: absolute;
+    background-color: #eff7ff;
+}
+
+.apresentacao ul {
+    width: 76%;
+    margin: auto;
+}
+
+.cachorro-fundo {
+    background: url(https://1.bp.blogspot.com/-YNZkjao6eaQ/YELXhJ0UmFI/AAAAAAAAGx8/g4DZtWzTEJgnWH3thrtWMCV7JCR80PE_gCLcBGAsYHQ/s0/cachorro-fundo-site.png) no-repeat;
+    padding: 699px 587px 1px 0px;
+    float: right;
+}
+
+.outdoor {
+    position: absolute;
+    top: 153px;
+}
+
+.outdoor ul {
+    color: #184985;
+    top: 171px;
+    width: 580px;
+    font-size: 21px;
+    position: absolute;
+}
+
+.outdoor s {
+    font-size: 64px;
+    position: absolute;
+    font-weight: bold;
+    width: 578px;
+    color: #41b7c6;
+    text-decoration: none;
+}
+
+.calendario {
+    position: absolute;
+    top: 381px;
+    width: 503px;
+    background: #fff;
+    box-shadow: 1px 0px 9px rgb(0 0 0 / 11%);
+    padding: 17px;
+}
+
+.calendario span {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #184985;
+    position: absolute;
+}
+
+.consulta-calendario {
+    float: right;
+    font-size: 14px;
+    margin: 0px;
+    background-color: #f05005;
+    color: #fff;
+    padding: 17px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.consulta-calendario:hover {
+    background: #92421d;
+}
