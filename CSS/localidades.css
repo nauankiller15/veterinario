@@ -8,7 +8,7 @@
         font-size: 27px;
         color: #184985;
         border-top: 3px solid #184985;
-        width: 76%;
+        width: 84%;
         padding: 11px;
         margin: auto;
         padding-bottom: 1px;
@@ -73,7 +73,7 @@
     .google-maps {
         z-index: 0;
         background: url(https://1.bp.blogspot.com/-rGAJjTrIvgw/YELqIrqWvbI/AAAAAAAAGyE/KTBGvYZyF3gi_qRwUfc4l3xjVNeO_Cg0gCLcBGAsYHQ/s0/localizacao-maps.png) no-repeat;
-        padding: 543px 963px 99px 99px;
+        padding: 537px 1096px 99px 99px;
         position: absolute;
         top: 15px;
     }

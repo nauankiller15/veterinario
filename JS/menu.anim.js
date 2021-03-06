@@ -7,7 +7,7 @@ window.onscroll = function() {
         document.getElementById("menu").style.top = "0";
     } else {
         document.getElementById("callmenu").style.top = "-50px";
-        document.getElementById("menu").style.top = "-27px";
+        document.getElementById("menu").style.top = "-30px";
     }
     prevScrollpos = currentScrollPos;
 }
