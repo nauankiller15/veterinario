@@ -68,6 +68,10 @@
         transition: 0.5s;
     }
     
+    .avaliar-atendimento:hover {
+        transform: translate(0px, -3px);
+    }
+    
     .avaliar-atendimento a {
         position: relative;
         z-index: 5;
