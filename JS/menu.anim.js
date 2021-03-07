@@ -5,7 +5,7 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("callmenu").style.top = "0";
         document.getElementById("menu").style.top = "0";
-        document.getElementById("menu").style.backgroundColor = "#ffffff8c";
+        document.getElementById("menu").style.backgroundColor = "#ffffffd3";
     } else {
         document.getElementById("callmenu").style.top = "-50px";
         document.getElementById("menu").style.backgroundColor = "#ffffff";
