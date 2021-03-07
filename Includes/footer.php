@@ -15,7 +15,7 @@
             <ul>
                 <h1>Legal:</h1>
 
-                <li>Licensas</li>
+                <li>Licenças</li>
                 <li>Página de Login</li>
                 <li>Erro 404</li>
                 <li>Politica de Privacidade</li>

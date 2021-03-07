@@ -36,7 +36,7 @@
         
         footer ul {
             margin: auto;
-            width: 76%;
+            width: 79%;
             height: 375px;
             font-size: 14px;
             text-align: left;
@@ -118,39 +118,8 @@
         .nav-footer3 {
             padding: 20px;
             float: left;
-            width: 161px;
-            margin-left: -23px;
-            margin-top: 0px;
-        }
-        
-        .nav-footer3 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        
-        .nav-footer3 li:hover {
-            color: #f05005;
-        }
-        
-        .nav-footer3 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        /* CONECTAR  */
-        
-        .nav-footer3 {
-            padding: 20px;
-            float: left;
-            width: 160px;
-            margin-left: -23px;
+            width: 171px;
+            margin-left: -47px;
             margin-top: 0px;
         }
         
@@ -180,8 +149,8 @@
         .nav-footer4 {
             padding: 20px;
             float: left;
-            width: 319px;
-            margin-left: 2px;
+            width: 340px;
+            margin-left: -2px;
             margin-top: 0px;
         }
         

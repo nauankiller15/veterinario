@@ -3,21 +3,21 @@
     background: url(https://1.bp.blogspot.com/-RUrT5i7cQTI/YEK9t6aPZQI/AAAAAAAAGxk/31sMSs8ffAElofWDNsdAY7XTZvsMBflQQCLcBGAsYHQ/s0/logo%2Bsite-menu.png) no-repeat;
     padding: 66px 136px 10px 10px;
     cursor: pointer;
-    margin-top: 38px;
+    margin-top: 50px;
     margin-left: -7px;
 }
 
 .callmenu {
     width: 77%;
     margin: auto;
-    margin-top: 11px;
-    margin-bottom: 9px;
-    height: 24px;
+    padding-top: 13px;
+    height: 44px;
     border-bottom: 1px solid #efefef;
     position: fixed;
     top: 0;
     left: 167px;
     transition: top 0.3s;
+    background: #fff;
 }
 
 .callmenu ul {
@@ -55,14 +55,13 @@
 
 .menu {
     position: fixed;
-    background: #fff;
     top: 0;
     right: 0;
-    box-shadow: 0px 0px 8px rgb(0 0 0 / 20%);
-    height: 113px;
+    /* box-shadow: 0px 0px 6px rgb(0 0 0 / 11%); */
+    height: 125px;
     width: 100%;
     z-index: 101;
-    transition: top 0.4s;
+    transition: 0.4s;
 }
 
 .position {
@@ -80,8 +79,45 @@ nav .menuItems {
     right: -14px;
     list-style: none;
     display: flex;
-    top: 30px;
+    top: 38px;
 }
+
+nav .menuItems li {
+    padding: 19px;
+    text-decoration: none;
+    color: #184985;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 4px 11px 0px;
+}
+
+nav .menuItems li::before {
+    content: attr(data-item);
+    transition: 0.2s;
+    color: #f05005;
+    position: absolute;
+    top: 19px;
+    bottom: 0;
+    left: 19px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #f05005;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+nav .menuItems li:hover::before {
+    width: 67%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*  */
 
 .consulta span {
     position: relative;
@@ -90,10 +126,10 @@ nav .menuItems {
 }
 
 .consulta {
-    margin: 18px;
+    margin: 15px;
     color: #fff;
     background: #f05005;
-    padding: 17px 18px;
+    padding: 16px 20px;
     border: #f05005;
     display: inline-block;
     position: relative;
@@ -129,38 +165,4 @@ nav .menuItems {
     -ms-transform: scaleX(200);
     transform: scaleX(200);
     opacity: 1;
-}
-
-nav .menuItems li {
-    padding: 19px;
-    text-decoration: none;
-    color: #184985;
-    font-size: 14px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 15px 4px 11px 0px;
-}
-
-nav .menuItems li::before {
-    content: attr(data-item);
-    transition: 0.2s;
-    color: #f05005;
-    position: absolute;
-    top: 19px;
-    bottom: 0;
-    left: 20px;
-    right: 0;
-    width: 0;
-    overflow: hidden;
-    background-color: #fff;
-    border-bottom: 2px solid #f05005;
-    cursor: pointer;
-}
-
-nav .menuItems li:hover::before {
-    width: 67%;
-    transition: all 0.5s ease-in-out;
 }

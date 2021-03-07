@@ -3,7 +3,7 @@
     width: 100%;
     padding-bottom: 1px;
     position: absolute;
-    background-color: #eff7ff;
+    background-color: #ffffff;
 }
 
 .apresentacao ul {
@@ -31,7 +31,7 @@
 }
 
 .outdoor s {
-    font-size: 64px;
+    font-size: 54px;
     position: absolute;
     font-weight: bold;
     width: 578px;
@@ -43,9 +43,9 @@
     position: absolute;
     top: 381px;
     width: 503px;
-    background: #fff;
-    box-shadow: 1px 0px 9px rgb(0 0 0 / 11%);
-    padding: 17px;
+    background: #ffffff;
+    box-shadow: 1px 0px 12px rgb(0 0 0 / 23%);
+    padding: 18px;
 }
 
 .calendario span {
@@ -53,6 +53,7 @@
     font-size: 20px;
     color: #184985;
     position: absolute;
+    margin-left: 11px;
 }
 
 .consulta-calendario {
