@@ -51,6 +51,7 @@
             padding: 121px 70px 3px 121px;
             position: absolute;
             left: 113px;
+            left: 135px;
         }
         /*  */
         /* NAVEGAÇÃO */
@@ -159,6 +160,8 @@
             float: left;
             width: 175px;
             margin-left: -23px;
+            width: 171px;
+            margin-left: -47px;
             margin-top: 0px;
         }
         
@@ -191,7 +194,8 @@
             float: left;
             width: 348px;
             margin-left: -7px;
-            margin-top: 0px;
+            width: 340px;
+            margin-left: -2px;
         }
         
         .nav-footer4 li {

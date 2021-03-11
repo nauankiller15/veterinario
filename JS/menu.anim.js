@@ -15,7 +15,6 @@ window.onscroll = function() {
         document.getElementById("menu").style.backgroundColor = "#ffffff";
         document.getElementById("menu").style.height = "167px";
 
-
     }
     prevScrollpos = currentScrollPos;
 }

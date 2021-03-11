@@ -29,7 +29,7 @@
     color: #65696b;
     font-size: 16px;
     font-weight: 600;
-    width: 82%;
+    width: 86%;
     border-bottom: 1px solid #dbe5ee;
     height: 70px;
 }
@@ -112,6 +112,7 @@ nav .menuItems li::before {
     right: 0;
     width: 0;
     overflow: hidden;
+    /* border: 2px solid #0563f0; */
     cursor: pointer;
 }
 
