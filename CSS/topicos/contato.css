@@ -1,0 +1,53 @@
+.servicos {
+    top: 1607px;
+    width: 100%;
+    padding-bottom: 1px;
+    position: absolute;
+    display: grid;
+}
+
+.servicos ul {
+    width: 100%;
+    display: grid;
+}
+
+.fundo-out3 {
+    left: 0;
+    z-index: 97;
+    width: 70%;
+    top: 43px;
+    padding-left: 86px;
+    position: absolute;
+}
+
+.tela-servicos {
+    position: absolute;
+    top: 80px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.tela-servicos ul {
+    color: #020202;
+    top: 180px;
+    width: 75%;
+    font-size: 21px;
+}
+
+.tela-servicos h1 {
+    font-size: 16px;
+    position: absolute;
+    font-weight: bold;
+    width: 200px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.tela-servicos h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    color: #000000;
+    margin-top: 25px;
+    text-decoration: none;
+}

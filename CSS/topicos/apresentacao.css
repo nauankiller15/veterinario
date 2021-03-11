@@ -1,0 +1,122 @@
+.apresentacao {
+    top: 186px;
+    width: 100%;
+    padding-bottom: 1px;
+    position: absolute;
+    display: grid;
+}
+
+.apresentacao ul {
+    width: 100%;
+    display: grid;
+}
+
+.doctor-fundo {
+    background: url(https://1.bp.blogspot.com/-QR0oZZtmc1A/YEQ8iyW6qhI/AAAAAAAAGy8/lR69mQAGpe8e0MYG1tmb0444gj-Y23SGQCLcBGAsYHQ/s0/doctor-png.png) no-repeat;
+    z-index: 96;
+    right: 0;
+    margin-top: -17px;
+    min-height: 845px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-top: 1px solid #dbe5ee;
+}
+
+.fundo-out {
+    left: 2px;
+    border-top: 1px #dbe5ee solid;
+    background: #fff;
+    z-index: 97;
+    width: 610px;
+    height: 663px;
+    top: -17px;
+    padding-left: 86px;
+    position: absolute;
+}
+
+.outdoor {
+    position: absolute;
+    top: 80px;
+}
+
+.outdoor ul {
+    color: #020202;
+    top: 180px;
+    width: 100%;
+    font-size: 21px;
+}
+
+.outdoor h1 {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    color: #0563f0;
+    text-decoration: none;
+}
+
+.outdoor h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    color: #000000;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+.calendario {
+    position: absolute;
+    top: 381px;
+    width: 92%;
+    background: #fff;
+    box-shadow: 1px 0px 9px rgb(0 0 0 / 11%);
+    padding: 17px;
+    left: -5px;
+}
+
+.calendario span {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+}
+
+.consulta-calendario {
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    background: #0563f0;
+    padding: 17px 18px;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    transition: 0.3s;
+}
+
+.consulta-calendario a {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.consulta-calendario:hover {
+    background: #245caf;
+    transform: translate(0px, -3px);
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(3px);
+    }
+}

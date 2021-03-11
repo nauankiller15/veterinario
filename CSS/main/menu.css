@@ -1,0 +1,178 @@
+.logo {
+    position: absolute;
+    background: url(https://1.bp.blogspot.com/-Zhb5_82995g/YEQ2fggzQgI/AAAAAAAAGy0/fC02zQDp9Vg-boTkl_IZDdJmR8X0JA0JwCLcBGAsYHQ/s0/logo-site.png) no-repeat;
+    padding: 55px 186px 10px 10px;
+    cursor: pointer;
+    margin-top: 84px;
+    margin-left: -48px;
+}
+
+.callmenu {
+    width: 100%;
+    margin: auto;
+    height: 69px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+}
+
+.callmenu i {
+    color: #0563f0;
+}
+
+.callmenu ul {
+    padding-top: 27px;
+    margin-bottom: 9px;
+    margin: auto;
+    text-align: center;
+    color: #65696b;
+    font-size: 16px;
+    font-weight: 600;
+    width: 82%;
+    border-bottom: 1px solid #dbe5ee;
+    height: 70px;
+}
+
+.callmenu s {
+    text-decoration: none;
+}
+
+.callmenu p {
+    position: absolute;
+    right: 0;
+}
+
+.callmenu a {
+    text-decoration: none;
+    color: #65696b;
+    transition: 0.3s;
+    margin: 2px 18px 7px 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.callmenu a:hover {
+    text-decoration: none;
+    color: #0563f0
+}
+
+
+/*  */
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 169px;
+    width: 100%;
+    z-index: 101;
+    transition: 0.4s;
+    background-color: #ffffffd3;
+}
+
+.position {
+    width: 77%;
+    margin: auto;
+}
+
+nav {
+    position: relative;
+    right: 0;
+}
+
+nav .menuItems {
+    position: absolute;
+    right: -40px;
+    list-style: none;
+    display: flex;
+    top: 70px;
+}
+
+nav .menuItems li {
+    font-weight: 500;
+    padding: 21px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    margin: 14px 4px 10px -10px;
+}
+
+nav .menuItems li::before {
+    content: attr(data-item);
+    transition: 0.2s;
+    color: #0563f0;
+    position: absolute;
+    top: 21px;
+    bottom: 0;
+    left: 21px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+nav .menuItems li:hover::before {
+    width: 67%;
+    transition: all 0.5s ease-in-out;
+}
+
+.consulta span {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    top: 0px;
+}
+
+.consulta {
+    font-weight: bold;
+    margin: 17px 10px 25px 9px;
+    color: #0563f0;
+    border: 2px solid #0563f0;
+    padding: 15px 28px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.consulta:hover {
+    color: #fff;
+    transform: translate(0px, -3px);
+}
+
+.consulta:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #0563f0;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: transform 0.4s ease;
+    z-index: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.consulta:hover:before {
+    -webkit-transform: scaleX(200);
+    -ms-transform: scaleX(200);
+    transform: scaleX(200);
+    opacity: 1;
+    color: #fff;
+}

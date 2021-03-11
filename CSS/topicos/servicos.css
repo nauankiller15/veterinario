@@ -1,0 +1,153 @@
+            .servicos {
+                top: 2155px;
+                width: 100%;
+                padding: 55px;
+                position: absolute;
+                display: grid;
+                background: #fff;
+                z-index: 99;
+            }
+            
+            .servicos ul {
+                width: 100%;
+                display: grid;
+                margin: auto;
+            }
+            
+            .tela-servicos {
+                top: 80px;
+                margin: auto;
+            }
+            /* titulo servicos*/
+            
+            .titulo-servicos {
+                margin: auto;
+                width: 50%;
+            }
+            
+            .titulo-servicos ul {
+                max-width: 480px;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+                margin-bottom: 105px;
+            }
+            
+            .titulo-servicos h3 {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: #061829;
+                font-size: 36px;
+                font-weight: 700;
+            }
+            
+            .titulo-servicos p {
+                margin-bottom: 10px;
+                color: #666f77;
+                font-size: 18px;
+            }
+            /*  */
+            /* especialidades cartões */
+            
+            .icon-cartao {
+                margin-top: -49px;
+                margin-bottom: 22px;
+            }
+            
+            .cartao {
+                margin-right: 10px;
+                margin-left: 10px;
+                float: left;
+                padding-right: 24px;
+                padding-bottom: 40px;
+                padding-left: 24px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #dbe5ee;
+                border-radius: 8px;
+                background-color: #fff;
+                box-shadow: 0 3px 6px 0 rgb(155 188 232 / 29%);
+                -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+                transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+                transition: transform 300ms ease, box-shadow 300ms ease;
+                transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+                width: 340px;
+                text-align: center;
+            }
+            
+            .cartao:hover {
+                display: block;
+                box-shadow: 0 6px 14px 0 rgb(143 177 223 / 43%);
+                -webkit-transform: translate(0px, -5px);
+                -ms-transform: translate(0px, -5px);
+                transform: translate(0px, -5px);
+            }
+            
+            .cartao h3 {
+                margin-top: 5px;
+                margin-bottom: 10px;
+                color: #061829;
+                font-size: 22px;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            
+            .botao-secundario {
+                width: 100%;
+                font-weight: bold;
+                color: #0563f0;
+                border: 2px solid #0563f0;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                display: inline-block;
+                position: relative;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.4s ease;
+                overflow: hidden;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 4px;
+                transition: 0.5s;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 20px;
+            }
+            
+            .botao-secundario span {
+                position: relative;
+                z-index: 5;
+                cursor: pointer;
+                top: 0px;
+            }
+            
+            .botao-secundario:hover {
+                color: #fff;
+                transform: translate(0px, -9px);
+            }
+            
+            .botao-secundario:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 2px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #0563f0;
+                -webkit-transition: -webkit-transform 0.2s ease;
+                transition: transform 0.4s ease;
+                z-index: 0;
+                opacity: 0;
+                cursor: pointer;
+                transition: 0.5s;
+                color: #fff;
+            }
+            
+            .botao-secundario:hover:before {
+                -webkit-transform: scaleX(200);
+                -ms-transform: scaleX(200);
+                transform: scaleX(200);
+                opacity: 1;
+                color: #fff;
+            }

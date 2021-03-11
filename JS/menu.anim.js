@@ -5,9 +5,17 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("callmenu").style.top = "0";
         document.getElementById("menu").style.top = "0";
+        document.getElementById("menu").style.backgroundColor = "#ffffffd3";
+        document.getElementById("menu").style.height = "169px";
+
+
     } else {
-        document.getElementById("callmenu").style.top = "-50px";
-        document.getElementById("menu").style.top = "-30px";
+        document.getElementById("callmenu").style.top = "-80px";
+        document.getElementById("menu").style.top = "-70px";
+        document.getElementById("menu").style.backgroundColor = "#ffffff";
+        document.getElementById("menu").style.height = "167px";
+
+
     }
     prevScrollpos = currentScrollPos;
 }

@@ -15,7 +15,7 @@
             <ul>
                 <h1>Legal:</h1>
 
-                <li>Licensas</li>
+                <li>Licenças</li>
                 <li>Página de Login</li>
                 <li>Erro 404</li>
                 <li>Politica de Privacidade</li>
@@ -25,9 +25,9 @@
             <ul>
                 <h1>Conectados:</h1>
 
-                <li><i style="margin-right:5px;" class="fab fa-instagram"></i>Instagram</li>
-                <li><i style="margin-right:5px;" class="fab fa-whatsapp"></i>Whatsapp</li>
-                <li><i style="margin-right:5px;" class="fab fa-facebook-f"></i>Facebook</li>
+                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-instagram"></i>Instagram</li>
+                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-whatsapp"></i>Whatsapp</li>
+                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-facebook-f"></i>Facebook</li>
 
             </ul>
         </div>
@@ -35,11 +35,11 @@
             <ul>
                 <h1>Nosso Consultório:</h1>
 
-                <li><i style="margin-right:5px;" class="fas fa-phone-alt" aria-hidden="true"></i>+44 (0)1843 498 783</li>
-                <li><i style="margin-right:5px;" class="fas fa-envelope" aria-hidden="true"></i>contato@seudominio.com</li>
+                <li><i style="margin-right:5px;color:#0563f0;" class="fas fa-phone-alt" aria-hidden="true"></i>+55 (00) 3000-2000</li>
+                <li><i style="margin-right:5px;color:#0563f0;" class="fas fa-envelope" aria-hidden="true"></i>contato@seudominio.com</li>
                 <li><i style="    height: 40px;
     margin-right: 8px;
-    float: left;" class="fas fa-map-marker-alt"></i>
+    float: left;color:#0563f0;" class="fas fa-map-marker-alt"></i>
                     <p style="float:right;width:30px;">Estado
                         Cidade
                         Localização</p>
@@ -50,8 +50,11 @@
     </ul>
 </footer>
 <div class="creditos">
-    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - Veterinario</p>
+    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - Medicina</p>
 </div>
+<script>
+  AOS.init();
+</script>
 <!-- Copyright -->
 
 <!-- JS -->
