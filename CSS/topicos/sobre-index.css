@@ -8,26 +8,23 @@
 
 .apresentacao2 ul {
     width: 100%;
-    display: grid;
 }
 
 .doctor-fundo2 {
     background: url(https://1.bp.blogspot.com/-t9YxwzmH1Vo/YEVJMjnnCII/AAAAAAAAGzM/vQO7bLV5XaUDvNUYlrUkWH43g1fSjGWGQCLcBGAsYHQ/s0/sobre-nos.png) no-repeat;
-    z-index: 96;
+    z-index: 95;
     right: 0;
-    margin-top: -16px;
-    min-height: 666px;
-    background-position: 50% -29%;
+    min-height: 672px;
+    background-position: 39% 3%;
     background-size: cover;
-    width: 811px;
     display: grid;
 }
 
 .fundo-out2 {
-    right: 0;
+    left: 0;
     background: #f1f6fb;
     z-index: 97;
-    width: 700px;
+    width: 637px;
     height: 590px;
     top: 60px;
     padding-left: 86px;
@@ -43,7 +40,7 @@
 }
 
 .outdoor2 ul {
-    color: #020202;
+    color: #207f8b;
     top: 180px;
     width: 75%;
     font-size: 21px;
@@ -54,7 +51,7 @@
     position: absolute;
     font-weight: bold;
     width: 200px;
-    color: #000000;
+    color: #184985;
     text-decoration: none;
 }
 
@@ -62,7 +59,7 @@
     font-size: 50px;
     font-weight: bold;
     width: 100%;
-    color: #000000;
+    color: #184985;
     margin-top: 25px;
     text-decoration: none;
 }

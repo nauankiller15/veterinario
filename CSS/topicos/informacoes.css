@@ -6,7 +6,7 @@
 
 .info ul {
     font-size: 18px;
-    color: #000;
+    color: #184985;
     width: 84%;
     padding: 11px;
     margin: auto;
@@ -23,7 +23,7 @@
     z-index: 99;
     text-decoration: none;
     padding: 30px;
-    left: 468px;
+    right: 450px;
 }
 
 
@@ -31,7 +31,7 @@
 
 .info span::before {
     position: absolute;
-    background-color: #0563f0;
+    background-color: #184985;
     color: #fff;
     content: "\f879";
     font-family: FontAwesome;
@@ -56,6 +56,7 @@
 /* SEGUNDO LABEL */
 
 .info s {
+    right: 35px;
     position: absolute;
     top: 17px;
     width: 325px;
@@ -69,7 +70,7 @@
 
 .info s::before {
     position: absolute;
-    background-color: #0563f0;
+    background-color: #184985;
     color: #fff;
     content: "\f017";
     font-family: FontAwesome;
@@ -90,7 +91,7 @@
 /* TERCEIRO LABEL */
 
 .info u {
-    left: 769px;
+    right: 769px;
     position: absolute;
     top: 17px;
     width: 284px;
@@ -102,7 +103,7 @@
 
 .info u::before {
     position: absolute;
-    background-color: #0563f0;
+    background-color: #184985;
     color: #fff;
     content: "\f0f1";
     font-family: FontAwesome;
@@ -137,7 +138,7 @@
 .avaliar-atendimento {
     margin: 11px;
     color: #fff;
-    background: #0563f0;
+    background: #184985;
     padding: 8px 21px;
     display: inline-block;
     position: relative;
@@ -162,16 +163,16 @@
 }
 
 .avaliar-atendimento:hover {
-    background: #245caf;
+    background: #184985;
     transform: translate(0px, -3px);
 }
 
 .informacoes {
-    left: -15px;
-    width: 85%;
+    right: 0;
+    width: 100%;
     z-index: 97;
     background: #fff;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 132px;
     position: absolute;
     top: 12px;

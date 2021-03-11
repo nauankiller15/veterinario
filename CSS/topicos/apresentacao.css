@@ -11,13 +11,14 @@
     display: grid;
 }
 
-.doctor-fundo {
-    background: url(https://1.bp.blogspot.com/-QR0oZZtmc1A/YEQ8iyW6qhI/AAAAAAAAGy8/lR69mQAGpe8e0MYG1tmb0444gj-Y23SGQCLcBGAsYHQ/s0/doctor-png.png) no-repeat;
+.dog-fundo {
+    background: url(https://1.bp.blogspot.com/-tmPr8fZ-KIs/YEqL0ecgKRI/AAAAAAAAGz0/BYGpTSAO2wE9BlCGjIRMKouJUiq-qnHSQCLcBGAsYHQ/s0/cachorro-fundo.png) no-repeat;
+    background-color: #eff7ff;
     z-index: 96;
     right: 0;
-    margin-top: -17px;
-    min-height: 845px;
-    background-position: 50% 50%;
+    margin-top: -118px;
+    min-height: 936px;
+    background-position: 95% 50%;
     background-size: cover;
     border-top: 1px solid #dbe5ee;
 }
@@ -25,10 +26,10 @@
 .fundo-out {
     left: 2px;
     border-top: 1px #dbe5ee solid;
-    background: #fff;
+    background: #f2f3f4a3;
     z-index: 97;
     width: 610px;
-    height: 663px;
+    height: 835px;
     top: -17px;
     padding-left: 86px;
     position: absolute;
@@ -40,7 +41,7 @@
 }
 
 .outdoor ul {
-    color: #020202;
+    color: #107784;
     top: 180px;
     width: 100%;
     font-size: 21px;
@@ -50,7 +51,7 @@
     font-size: 16px;
     font-weight: bold;
     width: 100%;
-    color: #0563f0;
+    color: #f05005;
     text-decoration: none;
 }
 
@@ -58,7 +59,7 @@
     font-size: 50px;
     font-weight: bold;
     width: 100%;
-    color: #000000;
+    color: #184985;
     margin-top: 2px;
     text-decoration: none;
 }
@@ -71,19 +72,20 @@
     box-shadow: 1px 0px 9px rgb(0 0 0 / 11%);
     padding: 17px;
     left: -5px;
+    border-radius: 15px;
 }
 
 .calendario span {
     margin-top: 16px;
     font-size: 18px;
-    color: #000;
+    color: #184985;
     position: absolute;
 }
 
 .consulta-calendario {
     margin: 2px;
     color: rgb(255, 255, 255);
-    background: #0563f0;
+    background: #f05005;
     padding: 17px 18px;
     position: relative;
     -webkit-transition: all 0.5s ease;
@@ -108,7 +110,7 @@
 }
 
 .consulta-calendario:hover {
-    background: #245caf;
+    background: #bd4710;
     transform: translate(0px, -3px);
 }
 

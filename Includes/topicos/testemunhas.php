@@ -1,6 +1,6 @@
 <div class='testemunhas'>
     <ul>
-        <div class="titulo-testumanhas"><i style="color:#0563f0;" class="fas fa-comment-dots"></i> Depoimentos</div>
+        <div class="titulo-testumanhas"><i style="color:#184985;" class="fas fa-comment-dots"></i> Depoimentos</div>
 
         <section id="testim" class="testim">
             <!--         <div class="testim-cover"> -->

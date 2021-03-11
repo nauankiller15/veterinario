@@ -50,7 +50,7 @@ body {
     border-radius: 0;
     padding: 110px;
     background-color: #000;
-    background: url(https://1.bp.blogspot.com/-a5Vp-3AgGM0/YEQ0pnZvF-I/AAAAAAAAGyk/jCpBrn4sN-4DdQni-lKrwHVblgSULNR-ACLcBGAsYHQ/s0/logo-site.png) no-repeat;
+    background: url(https://1.bp.blogspot.com/-VfINAnBSSKI/YEqLd0gEFhI/AAAAAAAAGzo/dmPccBNMu7MaEBIc3p8nbIUS85lWLbmIgCLcBGAsYHQ/s0/logo%2Bsite-menu.png) no-repeat;
     position: absolute;
     top: -30px;
     left: -49px;
@@ -91,7 +91,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #f1f6fb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,11 +114,11 @@ body {
 
 .linha-sufixa {
     display: inline-block;
-    width: 20px;
+    width: 30px;
     height: 4px;
     margin-bottom: 2px;
     margin-left: 5px;
-    background-color: #0063f4;
+    background-color: #f05005;
 }
 
 .linha-sufixa::before {
@@ -127,7 +127,7 @@ body {
     height: 4px;
     margin-bottom: 2px;
     margin-left: 20px;
-    background-color: #0063f4;
+    background-color: #f05005;
 }
 
 .sub-asset {

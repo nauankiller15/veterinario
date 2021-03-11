@@ -1,222 +1,189 @@
-        .creditos {
-            border-top: 2px solid #dcdcdc;
-            position: absolute;
-            font-size: 14px;
-            bottom: 0;
-            width: 100%;
-            height: 60px;
-            line-height: 60px;
-            font-size: 14px;
-            background-color: #f3f3f3;
-            color: #65696b;
-            text-align: center;
-            z-index: 100;
-            font-weight: 500;
-        }
-        
-        .creditos a {
-            text-decoration: none;
-            color: inherit;
-            border-bottom: 1px solid;
-        }
-        
-        .creditos a:hover {
-            border-bottom: 1px transparent;
-        }
-        
-        footer {
-            border-top: 2px solid #d3e0ec;
-            position: absolute;
-            font-size: 14px;
-            bottom: 0;
-            width: 100%;
-            background-color: #f9f9f9;
-            color: #65696b;
-            z-index: 100;
-            font-weight: 500;
-        }
-        
-        footer ul {
-            margin: auto;
-            width: 85%;
-            height: 375px;
-            font-size: 14px;
-            text-align: left;
-            padding-top: 25px;
-            font-weight: 600;
-        }
-        
-        .logo-footer {
-            background: url(https://1.bp.blogspot.com/-_JdyUCoyXMs/YEQ1yRjeRyI/AAAAAAAAGys/GbX9MwJBnPAXs9iD_h94tiBlY5ZCvXpigCLcBGAsYHQ/s0/logo-site-FOOTER.png) no-repeat;
-            padding: 121px 70px 3px 121px;
-            position: absolute;
-            left: 113px;
-            left: 135px;
-        }
-        /*  */
-        /* NAVEGAÇÃO */
-        
-        .nav-footer1 {
-            padding: 20px;
-            float: left;
-            width: 135px;
-            margin-left: 232px;
-            margin-top: 0px;
-        }
-        
-        .nav-footer1 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            cursor: pointer;
-            transition: 0.4s;
-            font-weight: 600;
-        }
-        
-        .nav-footer1 li:hover {
-            color: #0563f0;
-        }
-        
-        .nav-footer1 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #000;
-        }
-        /*  */
-        /* LEGAL  */
-        
-        .nav-footer2 {
-            padding: 20px;
-            float: left;
-            width: 199px;
-            margin-left: 25px;
-            margin-top: 0px;
-        }
-        
-        .nav-footer2 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        
-        .nav-footer2 li:hover {
-            color: #0563f0;
-        }
-        
-        .nav-footer2 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #000;
-        }
-        /*  */
-        /* CONECTAR  */
-        
-        .nav-footer3 {
-            padding: 20px;
-            float: left;
-            width: 161px;
-            margin-left: -23px;
-            margin-top: 0px;
-        }
-        
-        .nav-footer3 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        
-        .nav-footer3 li:hover {
-            color: #0563f0;
-        }
-        
-        .nav-footer3 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #000;
-        }
-        /* CONECTAR  */
-        
-        .nav-footer3 {
-            padding: 20px;
-            float: left;
-            width: 175px;
-            margin-left: -23px;
-            width: 171px;
-            margin-left: -47px;
-            margin-top: 0px;
-        }
-        
-        .nav-footer3 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        
-        .nav-footer3 li:hover {
-            color: #0563f0;
-        }
-        
-        .nav-footer3 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #000;
-        }
-        /* LOCALIZACAO  */
-        
-        .nav-footer4 {
-            padding: 20px;
-            float: left;
-            width: 348px;
-            margin-left: -7px;
-            width: 340px;
-            margin-left: -2px;
-        }
-        
-        .nav-footer4 li {
-            list-style: none;
-            float: left;
-            font-size: 16px;
-            margin-bottom: 13px;
-            text-align: left;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        
-        .nav-footer4 li:hover {
-            color: #0563f0;
-        }
-        
-        .nav-footer4 h1 {
-            padding-bottom: 20px;
-            list-style: none;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #000;
-        }
+.creditos {
+    position: absolute;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    color: #184985;
+    text-align: center;
+    z-index: 100;
+    font-weight: 500;
+}
+
+.creditos a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+}
+
+.creditos a:hover {
+    border-bottom: 1px transparent;
+}
+
+footer {
+    position: absolute;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: #184985;
+    z-index: 100;
+    font-weight: 500;
+}
+
+footer ul {
+    margin: auto;
+    width: 85%;
+    height: 375px;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 32px;
+}
+
+.logo-footer {
+    background: url(https://1.bp.blogspot.com/-IExQKLNbsSc/YEPhnkQBzsI/AAAAAAAAGyM/oNZwYXqEw4IHJEaU0YTkEn4M0g_MKVdfQCLcBGAsYHQ/s0/logo%2Bsite.png);
+    padding: 123px 99px 32px 131px;
+    position: absolute;
+    left: 88px;
+}
+
+
+/* NAVEGAÇÃO */
+
+.nav-footer1 {
+    padding: 20px;
+    float: left;
+    width: 135px;
+    margin-left: 232px;
+    margin-top: 0px;
+}
+
+.nav-footer1 li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 13px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nav-footer1 li:hover {
+    color: #f05005;
+}
+
+.nav-footer1 h1 {
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*  */
+
+
+/* LEGAL  */
+
+.nav-footer2 {
+    padding: 20px;
+    float: left;
+    width: 199px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.nav-footer2 li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 13px;
+    text-align: left;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav-footer2 li:hover {
+    color: #f05005;
+}
+
+.nav-footer2 h1 {
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*  */
+
+
+/* CONECTAR  */
+
+.nav-footer3 {
+    padding: 20px;
+    float: left;
+    width: 171px;
+    margin-left: -47px;
+    margin-top: 0px;
+}
+
+.nav-footer3 li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 13px;
+    text-align: left;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav-footer3 li:hover {
+    color: #f05005;
+}
+
+.nav-footer3 h1 {
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* LOCALIZACAO  */
+
+.nav-footer4 {
+    padding: 20px;
+    float: left;
+    width: 340px;
+    margin-left: -2px;
+    margin-top: 0px;
+}
+
+.nav-footer4 li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 13px;
+    text-align: left;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav-footer4 li:hover {
+    color: #f05005;
+}
+
+.nav-footer4 h1 {
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

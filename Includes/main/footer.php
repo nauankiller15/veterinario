@@ -25,9 +25,9 @@
             <ul>
                 <h1>Conectados:</h1>
 
-                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-instagram"></i>Instagram</li>
-                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-whatsapp"></i>Whatsapp</li>
-                <li><i style="margin-right:5px;color:#0563f0;" class="fab fa-facebook-f"></i>Facebook</li>
+                <li><i style="margin-right:5px;color:#184985;" class="fab fa-instagram"></i>Instagram</li>
+                <li><i style="margin-right:5px;color:#184985;" class="fab fa-whatsapp"></i>Whatsapp</li>
+                <li><i style="margin-right:5px;color:#184985;" class="fab fa-facebook-f"></i>Facebook</li>
 
             </ul>
         </div>
@@ -35,11 +35,11 @@
             <ul>
                 <h1>Nosso Consultório:</h1>
 
-                <li><i style="margin-right:5px;color:#0563f0;" class="fas fa-phone-alt" aria-hidden="true"></i>+55 (00) 3000-2000</li>
-                <li><i style="margin-right:5px;color:#0563f0;" class="fas fa-envelope" aria-hidden="true"></i>contato@seudominio.com</li>
+                <li><i style="margin-right:5px;color:#184985;" class="fas fa-phone-alt" aria-hidden="true"></i>+55 (00) 3000-2000</li>
+                <li><i style="margin-right:5px;color:#184985;" class="fas fa-envelope" aria-hidden="true"></i>contato@seudominio.com</li>
                 <li><i style="    height: 40px;
     margin-right: 8px;
-    float: left;color:#0563f0;" class="fas fa-map-marker-alt"></i>
+    float: left;color:#184985;" class="fas fa-map-marker-alt"></i>
                     <p style="float:right;width:30px;">Estado
                         Cidade
                         Localização</p>
@@ -50,7 +50,7 @@
     </ul>
 </footer>
 <div class="creditos">
-    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - Medicina</p>
+    © COPYRIGHT - Todos os direitos reservados. Nauan-Design - Veterinario</p>
 </div>
 <script>
   AOS.init();

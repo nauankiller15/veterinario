@@ -11,9 +11,7 @@
                   <li data-item='Sobre'>Sobre</li>
                   <li data-item='Time'>Time</li>
                   <li data-item='Contato'>Contato</li>
-                  <li data-item='Serviços'>Serviços</li>
-                  <li data-item='Outros'>Outros</li>
-                  <s class="consulta" href='#'><span>Consultas</span></s>
+                  <s class="consulta" href='#'><span>Realizar Consulta</span></s>
               </ul>
           </nav>
       </div>

@@ -8,7 +8,6 @@
 
 .apresentacao3 ul {
     width: 100%;
-    display: grid;
 }
 
 .doctor-fundo3 {
@@ -27,7 +26,7 @@
     z-index: 97;
     width: 637px;
     height: 590px;
-    top: 43px;
+    top: 28px;
     padding-left: 86px;
     position: absolute;
 }
@@ -38,7 +37,7 @@
 }
 
 .outdoor3 ul {
-    color: #020202;
+    color: #207f8b;
     top: 180px;
     width: 75%;
     font-size: 21px;
@@ -49,7 +48,7 @@
     position: absolute;
     font-weight: bold;
     width: 200px;
-    color: #000000;
+    color: #184985;
     text-decoration: none;
 }
 
@@ -57,7 +56,7 @@
     font-size: 50px;
     font-weight: bold;
     width: 100%;
-    color: #000000;
+    color: #184985;
     margin-top: 25px;
     text-decoration: none;
 }

@@ -10,12 +10,12 @@
                                 Non mauris nulla tincidunt fermentum.
                                 Sagittis pellentesque.</ul>
                             <div class="calendario">
-                                <span><i style="color:#0563f0;margin-right: 7px;" class="far fa-calendar-alt"></i> Veja aqui a agenda</span>
+                                <span><i style="color:#184985;margin-right: 7px;" class="far fa-calendar-alt"></i> Veja aqui a agenda</span>
                                 <li class="consulta-calendario" href='#'><a>Verificar Consultas</a></li>
                             </div>
                     </div>
                 </div>
-                <div class="doctor-fundo">
+                <div class="dog-fundo">
 
                 </div>
             </ul>
