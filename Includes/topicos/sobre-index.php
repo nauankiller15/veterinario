@@ -7,7 +7,9 @@
                             <ul><b>Lorem ipsum</b> dolor sit amet,
                                 consectetur adipiscing elit.
                                 Non mauris nulla tincidunt fermentum.
-                                Sagittis pellentesque.</ul>
+                                Sagittis pellentesque.
+                                <li class="botao-int" href='#'><a>Sobre nós</a></li>
+                            </ul>
                     </div>
                 </div>
 

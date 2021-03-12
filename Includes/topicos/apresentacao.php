@@ -3,7 +3,7 @@
             <ul>
                 <div class="fundo-out">
                     <div class="outdoor">
-                        <h1 class="sub-asset">Centro Médico <div class="linha-sufixa"></div>
+                        <h1 class="sub-asset">Centro Veterinário <div class="linha-sufixa"></div>
                             <h2>Sua Cidade e uma Frase de Efeito</h2>
                             <ul><b>Lorem ipsum</b> dolor sit amet,
                                 consectetur adipiscing elit.

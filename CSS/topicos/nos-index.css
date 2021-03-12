@@ -11,11 +11,11 @@
 }
 
 .doctor-fundo3 {
-    background: url(https://1.bp.blogspot.com/-zoDA9K_UfmY/YEVUYKo_yTI/AAAAAAAAGzU/toqBDPUZUH81DLk5pGtTl5psYQxKetMvwCLcBGAsYHQ/s0/enfermary.png) no-repeat;
+    background: url(https://1.bp.blogspot.com/-YtTFsbdL_lQ/YEqitciwWWI/AAAAAAAAG0I/aUHR5mk-pS4n5R8avyOUJxDKvmFr-6-cgCLcBGAsYHQ/s0/565399.jpg) no-repeat;
     z-index: 95;
     right: 0;
     min-height: 627px;
-    background-position: 51% -4%;
+    background-position: 51% 25%;
     background-size: cover;
     display: grid;
 }
@@ -29,7 +29,15 @@
     top: 28px;
     padding-left: 86px;
     position: absolute;
+    transition: 0.5s;
 }
+
+.fundo-out3:hover {
+    transform: translate(0px, -22px);
+}
+
+
+/*  */
 
 .outdoor3 {
     position: absolute;
