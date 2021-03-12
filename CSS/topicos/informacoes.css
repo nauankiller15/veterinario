@@ -13,6 +13,17 @@
     padding-bottom: 1px;
 }
 
+.informacoes {
+    right: 0;
+    width: 100%;
+    z-index: 98;
+    background: #fff;
+    padding: 132px;
+    position: absolute;
+    top: 12px;
+    box-shadow: 0px 0px 14px 8px rgb(0 0 0 / 17%);
+}
+
 
 /* PRIMEIRO LABEL */
 
@@ -165,16 +176,4 @@
 .avaliar-atendimento:hover {
     background: #184985;
     transform: translate(0px, -3px);
-}
-
-.informacoes {
-    right: 0;
-    width: 100%;
-    z-index: 98;
-    background: #fff;
-    /* border-radius: 12px; */
-    padding: 132px;
-    position: absolute;
-    top: 12px;
-    box-shadow: 8px -5px 8px -6px rgb(0 0 0 / 10%);
 }
